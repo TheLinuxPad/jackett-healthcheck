@@ -1,4 +1,4 @@
-# jackett-docker-healthcheck
+# jackett-healthcheck
 Based on [Linuxserver/jackett](https://github.com/linuxserver/docker-jackett), just with support for Docker Healthcheck added. I needed this so that [Willfarrell/autoheal](https://github.com/willfarrell/docker-autoheal) could do the magic without manual intervention from me. Please check their respective repositoires for detailed info.
 
 ## Commands to setup Jackett:
@@ -11,7 +11,7 @@ Based on [Linuxserver/jackett](https://github.com/linuxserver/docker-jackett), j
   -v <path to data>:/config \
   -v <path to blackhole>:/downloads \
   --restart unless-stopped \
-  siddhant-k/jackett-docker-healthcheck
+  siddhant-k/jackett-healthcheck
   ```
   
 ## Commands to setup Autoheal:
