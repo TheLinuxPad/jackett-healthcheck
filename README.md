@@ -1,7 +1,7 @@
 # jackett-docker-healthcheck
 Based on [Linuxserver/jackett](https://github.com/linuxserver/docker-jackett), just with support for Docker Healthcheck added. I needed this so that [Willfarrell/autoheal](https://github.com/willfarrell/docker-autoheal) could do the magic without manual intervention from me. Please check their respective repositoires for detailed info.
 
-## How to install Jackett:
+## Commands to setup Jackett:
 ```docker create \
   --name=jackett \
   -e PUID=1000 \
@@ -14,7 +14,7 @@ Based on [Linuxserver/jackett](https://github.com/linuxserver/docker-jackett), j
   siddhant-k/jackett-docker-healthcheck
   ```
   
-## How to use it with Autoheal:
+## Command to setup Autoheal:
  ```
 docker run -d \
     --name autoheal \
