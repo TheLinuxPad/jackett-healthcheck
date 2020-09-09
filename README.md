@@ -14,7 +14,7 @@ Based on [Linuxserver/jackett](https://github.com/linuxserver/docker-jackett), j
   siddhant-k/jackett-docker-healthcheck
   ```
   
-## Command to setup Autoheal:
+## Commands to setup Autoheal:
  ```
 docker run -d \
     --name autoheal \
